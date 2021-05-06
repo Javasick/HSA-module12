@@ -11,8 +11,8 @@ redis
 10000 messages consumed during 605 ms
 
 redis -aof
-10000 messages produced during 12090 ms
-10000 messages consumed during 12065 ms
+10000 messages produced during 16462 ms
+10000 messages consumed during 14098 ms
 
 redis -rdb
 10000 messages produced during 13308 ms
