@@ -1,0 +1,19 @@
+beanstalkd
+10000 messages produced during 1170 ms
+10000 messages consumed during 5151 ms
+
+beanstalkd -b /tmp/bt
+10000 messages produced during 1329 ms
+10000 messages consumed during 5208 ms
+
+redis
+10000 messages produced during 626 ms
+10000 messages consumed during 605 ms
+
+redis -aof
+10000 messages produced during 12090 ms
+10000 messages consumed during 12065 ms
+
+redis -rdb
+10000 messages produced during 13308 ms
+10000 messages consumed during 13270 ms
